@@ -1,7 +1,6 @@
 FROM ubuntu:trusty
-MAINTAINER Rex Tsai <rex.cc.tsai@gmail.com>
+MAINTAINER Rex Tsai "https://about.me/chihchun"
 
 ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update \
-        && apt-get dist-upgrade -y \
-        && apt-get install -y vim iputils-ping netcat-openbsd
+        && apt-get install -y vim-tiny iputils-ping netcat-openbsd
